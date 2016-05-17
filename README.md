@@ -12,7 +12,8 @@
 GYM medium + 0.5% glycine
 
 # Extraction:
-Modified protocol of "High yield preparation of genomic DNA frmo Streptomyces" Nikodinovic et. al. 2003
+1. Modified protocol of "High yield preparation of genomic DNA from Streptomyces" Nikodinovic et. al. 2003
+2. Quantification via fluorometry following "Protocol for high-sensitivity/long linear-range spectrofluorimetric DNA quantification using ethidium bromide" Bonasera et. al. 2007
 
 # Sequencing:
 Libraries created and sequenced at Eurofins
