@@ -11,6 +11,9 @@
 # Culture:
 GYM medium + 0.5% glycine
 
+# Extraction:
+Modified protocol of "High yield preparation of genomic DNA frmo Streptomyces" Nikodinovic et. al. 2003
+
 # Sequencing:
 Libraries created and sequenced at Eurofins
 (Illumina MiSeq v3 300bp PE reads)
