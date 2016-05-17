@@ -13,12 +13,12 @@ GYM medium + 0.5% glycine
 
 # Sequencing:
 Libraries created and sequenced at Eurofins
-Illumina MiSeq v3 300bp PE reads
+(Illumina MiSeq v3 300bp PE reads)
 
 # Assembly:
 a5 MiSeq (v20150522)
 (adapter trimming, quality filtering, error correction, contig and scaffold generation, and detection of misassembllies)
 
 # Evaluation:
-PhyloSift or BUSCO for completeness
-REAPR for accuracy
+1. PhyloSift or BUSCO for completeness
+2. REAPR for accuracy
