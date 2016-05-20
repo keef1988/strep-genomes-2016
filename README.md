@@ -2,11 +2,11 @@
 
 5 Streptomyces genomes
 
-1. Streptomyces lavendulae (P5)
+1. Streptomyces lavendulae (BKM A840)
 2. Streptomyces albus (DSM 40763)
-3. Streptomyces galilaeus (S.gal)
-4. Streptomyces sp. H021 (H021)
-5. Streptomyces ? (PGAG4)
+3. Streptomyces galilaeus (ATCC 31615)
+4. Streptomyces sp. (H021)
+5. Streptomyces sp. (PGAG4)
 
 # Culture:
 GYM medium + 0.5% glycine, incubate 2-4 days at 30C
