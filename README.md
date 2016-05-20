@@ -9,7 +9,7 @@
 5. Streptomyces ? (PGAG4)
 
 # Culture:
-GYM medium + 0.5% glycine
+GYM medium + 0.5% glycine, incubate 2-4 days at 30C
 
 # Extraction:
 1. Modified protocol of "High yield preparation of genomic DNA from Streptomyces" Nikodinovic et. al. 2003
@@ -26,3 +26,6 @@ a5 MiSeq (v20150522)
 # Evaluation:
 1. PhyloSift or BUSCO for completeness
 2. REAPR for accuracy
+
+# Annotation
+RAST
