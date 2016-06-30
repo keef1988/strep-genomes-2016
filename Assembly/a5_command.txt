@@ -3,3 +3,26 @@ Command to run a5 (ran as a batch job)
 a5_pipeline.pl —-end=5 <reads1> <reads2> <output name>
 
 * It is important to set --end=5 otherwise no scaffolds will be produced
+
+
+EXAMPLE SHELL SCRIPT:
+
+#!/bin/bash -l
+# created: June 27, 2016 11:21 AM
+# author: ketaya
+#SBATCH -J a5_BKM_A840
+#SBATCH -n 1
+#SBATCH -out_%j.txt
+#SBATCH -err_%j.txt
+#SBATCH --cpus-per-task=8
+#SBATCH -t 20:00:00
+#SBATCH --mem=88000
+#SBATCH --mail-type=END
+#SBATCH --mail-user=keith.t.yamada@utu.fi
+
+export PATH=$PATH:$WRKDIR/strep2016/a5_miseq_linux_20150522/bin
+
+a5_pipeline.pl --end=5 /wrk/ketaya/strep2016/BKM_A840/BKM_A840_ATCACG_L001_R1_001.fastq.gz /wrk/ketaya/strep2016/BKM_A840/BKM_A840_ATCACG_L001_R2_001.fastq.gz BKM_A840
+
+used_slurm_resources.bash
+
