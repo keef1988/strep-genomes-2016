@@ -1,3 +1,5 @@
 Command to run a5 (ran as a batch job)
 
 a5_pipeline.pl —-end=5 <reads1> <reads2> <output name>
+
+* It is important to set --end=5 otherwise no scaffolds will be produced
