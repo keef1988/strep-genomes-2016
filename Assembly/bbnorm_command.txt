@@ -1,0 +1,30 @@
+Command to run bbnorm v20151214 (ran as a batch job)
+
+bbnorm.sh in=<reads1.fastq> in2=<reads2.fastq> target=<coverage level> out=<norm1.fastq> out2=<norm2.fastq> outt=<excluded.fastq>
+
+
+* First de-interleave EC reads from the first BKM_A840 assembly:
+
+./deinterleave_fastq.sh < BKM_A840.ec.fastq BKM_A840.ec1.fastq BKM_A840.ec2.fastq
+
+
+EXAMPLE SHELL SCRIPT:
+
+#!/bin/bash -l
+# created: June 27, 2016 11:21 AM
+# author: ketaya
+#SBATCH -J bbnorm_BKM_A840
+#SBATCH -n 1
+#SBATCH -out_%j.txt
+#SBATCH -err_%j.txt
+#SBATCH --cpus-per-task=8
+#SBATCH -t 20:00:00
+#SBATCH --mem=88000
+#SBATCH --mail-type=END
+#SBATCH --mail-user=keith.t.yamada@utu.fi
+
+
+$HOME/appl_taito/bbmap/bbnorm.sh in=BKM_A840.ec1.fastq in2=BKM_A840.ec2.fastq target=150 out=BKM_A840.ec.norm1.fastq out2=BKM_A840.ec.norm2.fastq outt=BKM_A840.ec.excluded.fastq
+
+used_slurm_resources.bash
+
