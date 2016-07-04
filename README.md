@@ -23,6 +23,8 @@ Libraries created and sequenced at Eurofins
 1. a5 MiSeq (v20150522)
 (adapter trimming, quality filtering, error correction, contig and scaffold generation, and detection of misassembllies)
 2. FASTQC was used to manually verify QC
+3. Map scaffolds to a reference genome using ABACAS
+4. Fill in gaps using IMAGE
 
 # Evaluation:
 1. PhyloSift or BUSCO for completeness
