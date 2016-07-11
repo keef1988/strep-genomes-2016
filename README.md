@@ -30,5 +30,8 @@ Libraries created and sequenced at Eurofins
 1. PhyloSift or BUSCO for completeness
 2. REAPR for accuracy
 
-# Annotation
+# Annotation:
 RAST
+
+# Secondary Metabolite Prediction:
+antiSMASH
