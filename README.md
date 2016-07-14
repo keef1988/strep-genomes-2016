@@ -27,7 +27,7 @@ Libraries created and sequenced at Eurofins
 4. Fill in gaps using IMAGE
 
 # Evaluation:
-1. PhyloSift or BUSCO for completeness
+1. BUSCO for completeness
 2. REAPR for accuracy
 
 # Annotation:
